@@ -41,7 +41,7 @@ App = React.createClass({
                     <h1>Next Year</h1>
 
                     <form className="new-goal" onSubmit={this.handleSubmit}>
-                        <input type="text" ref="textInput" placeholder="What are you going to do? (Write Past Tense)" />
+                        <input type="text" ref="textInput" placeholder="What are you going to do?" />
                     </form>
                 </header>
                 <ul>
